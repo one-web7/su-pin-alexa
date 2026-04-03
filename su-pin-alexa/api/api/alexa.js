@@ -1,4 +1,3 @@
-// JavaScript Documentexport default async function handler(req, res) {
   const requestType = req.body.request.type;
   const intent = req.body.request.intent?.name || "unknown";
 
